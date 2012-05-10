@@ -9,9 +9,15 @@ a {
 	outline: 0;
 	}
 
-p { 
-	margin: 0 0 10px 0;
-	padding: 10px;
+ul, ol {
+	padding: 0px;
+	margin: 0;
+	} 
+	
+hr {
+	border: none;
+	border-top: 2px dotted #d8d8d8;
+	height: 1px;
 	}
 	
 nav ul {
@@ -19,6 +25,7 @@ nav ul {
 	text-align: center;
 	height: 40px;
 	border-bottom: dotted 3px #fff;
+	padding: 0px;
 	}
 
 nav li {
@@ -31,6 +38,7 @@ nav li {
 nav a {
 	background: #fff;
 	padding: 10px;
+	color: #71c014;
 	}
 
 nav a:hover {
@@ -38,10 +46,14 @@ nav a:hover {
 	padding: 10px;
 	}
 	
+nav a:visited {
+	color: #71c014;
+	padding: 10px;
+	}
+	
 .wrapper {
-	background: #fff;
+	background: #fff url("../images/fabric_plaid.jpg");
 	margin: 0px, auto;
-	opacity: .93;
 	padding: 20px;
 	}
 
@@ -54,6 +66,17 @@ h1 {
 	color: #fff;
 	text-align: center;
 	margin: 10px auto;
+	text-shadow: 2px 2px 2px #5e3218;
+	}
+	
+h2 {
+	font-family: 'Euphoria Script', cursive;
+	font-weight: 100;
+	font-size: 50px;
+	padding: 20px 0 10px 0;
+	color: #000;
+	text-align: center;
+	margin: 10px auto;
 	}
 	
 .intro {
@@ -62,8 +85,12 @@ h1 {
 	font-size: 28px;
 	color: #fff;
 	padding: 10px;
-	background: #80dd4d;
-	opacity: .83;
+	background: rgba(113, 192, 20, .83);
 	margin: 10px 0;
 	text-align: center;
+	}
+
+.description {
+	text-align: center;
+	color: #666;
 	}
