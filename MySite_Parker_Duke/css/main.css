@@ -8,11 +8,6 @@ body {
 a {
 	outline: 0;
 	}
-
-ul, ol {
-	padding: 0px;
-	margin: 0;
-	} 
 	
 hr {
 	border: none;
@@ -78,6 +73,19 @@ h2 {
 	text-align: center;
 	margin: 10px auto;
 	}
+
+h3 {
+	font-family: 'Euphoria Script', cursive;
+	font-weight: 100;	
+	font-size: 35px;
+	margin: 20px 0 6px 0;
+	}
+
+h4 {
+	font-size: 20px;
+	margin: 20px 0 10px 0;
+	color: #666;
+	}
 	
 .intro {
 	font-family: 'Euphoria Script', cursive;
@@ -93,4 +101,39 @@ h2 {
 .description {
 	text-align: center;
 	color: #666;
+	}
+	
+img {
+	float: right;
+	border: 1px solid #e4e4e4;
+	padding: 10px;
+	margin: 20px;
+	}
+	
+.wrapper ul{
+	padding: 0px;
+	margin: 10px 0 20px 20px;
+	-moz-column-count: 2;
+	text-align: left;
+	color: #666;
+	list-style-type: circle;
+	} 
+
+.wrapper ol {
+	padding: 0px;
+	margin: 10px 0 20px 20px;
+	text-align: left;
+	color: #666;
+	} 
+
+.special {
+	-moz-column-count: 3;
+	color: #666;
+	}
+	
+footer p {
+	color: #fff;
+	text-align: center;
+	}
+
 	}
