@@ -1,8 +1,8 @@
 body {
-	width: 960px;
+	width: 100%;
 	margin: 0 auto;
-	background: url("../images/full_bg.jpg") fixed top center no-repeat;
-	font-family: helvetica, arial, trebuchet, sans-serif;
+	background: #fff url("../images/fabric_plaid.jpg") fixed;
+	font: 100%/1.5 "Helvetica Neue", Arial, Trebuchet, Sans-serif;
 	}
 	
 a {
@@ -16,58 +16,64 @@ hr {
 	}
 	
 nav ul {
-	margin: 10px auto;
-	text-align: center;
-	height: 40px;
-	border-bottom: dotted 3px #fff;
-	padding: 0px;
+	margin: 0 auto;
+	list-style-type: none;
+	width: 320px;
+	overflow: hidden;
+	padding: 0;
 	}
 
 nav li {
-	display: inline;
 	background: #fff;
-	text-align: center;
-	margin: 0 5px;
+	width: 100px;
+	float:left;
+	margin: 3px;
 	}
 
 nav a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
 	background: #fff;
-	padding: 10px;
+	padding: 0;
+	height: 35px;
 	color: #71c014;
+	line-height: 2em;
 	}
 
 nav a:hover {
-	background: #000;
-	padding: 10px;
+	background: #666;
 	}
 	
 nav a:visited {
 	color: #71c014;
-	padding: 10px;
 	}
 	
 .wrapper {
-	background: #fff url("../images/fabric_plaid.jpg");
-	margin: 0, auto;
+	background: #fff;
+	margin: 0 auto;
 	padding: 20px;
+	width: 80%;
+	-moz-border-radius: 3px;
 	}
 
 h1 {
 	background: url("../images/logo.png") top center no-repeat;
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;
-	font-size: 120px;
+	font-size: 6.5em; /*120px*/
 	padding: 100px 0 20px 0;
-	color: #fff;
+	color: #666;
 	text-align: center;
 	margin: 10px auto;
-	text-shadow: 2px 2px 2px #5e3218;
+	text-shadow: 2px 2px 2px #fff;
+	line-height: 1.2em;
 	}
 	
 h2 {
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;
-	font-size: 50px;
+	font-size: 3em;
 	padding: 20px 0 10px 0;
 	color: #000;
 	text-align: center;
@@ -77,12 +83,12 @@ h2 {
 h3 {
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;	
-	font-size: 35px;
+	font-size: 2em;
 	margin: 20px 0 6px 0;
 	}
 
 h4 {
-	font-size: 20px;
+	font-size: 1.5em;
 	margin: 20px 0 10px 0;
 	color: #666;
 	}
@@ -90,12 +96,15 @@ h4 {
 .intro {
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;
-	font-size: 28px;
+	font-size: 1.75em;
 	color: #fff;
-	padding: 10px;
+	padding: 5px 20px;
 	background: rgba(113, 192, 20, .83);
-	margin: 10px 0;
+	margin: 10px auto;
 	text-align: center;
+	width: 80%;
+	-moz-border-radius: 3px;
+
 	}
 
 .description {
@@ -140,6 +149,6 @@ img {
 	}
 	
 footer p {
-	color: #fff;
+	color: #b7b7b7;
 	text-align: center;
 	}
