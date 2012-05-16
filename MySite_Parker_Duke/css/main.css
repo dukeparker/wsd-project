@@ -27,7 +27,7 @@ nav li {
 	background: #fff;
 	width: 100px;
 	float:left;
-	margin: 3px;
+	margin: 1%;
 	}
 
 nav a {
@@ -52,7 +52,7 @@ nav a:visited {
 .wrapper {
 	background: #fff;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 2.083333333%;
 	width: 80%;
 	-moz-border-radius: 3px;
 	}
@@ -74,54 +74,64 @@ h2 {
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;
 	font-size: 3em;
-	padding: 20px 0 10px 0;
+	padding: 10px 0 0 0;
 	color: #000;
 	text-align: center;
-	margin: 10px auto;
+	margin: 0 auto;
 	}
 
 h3 {
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;	
 	font-size: 2em;
-	margin: 20px 0 6px 0;
+	margin: 10px 0;
 	}
 
 h4 {
 	font-size: 1.5em;
-	margin: 20px 0 10px 0;
+	margin: 10px 0;
+	padding 0;
 	color: #666;
 	}
+
+p {
+	margin: 0 0 10px 0;
+	color: #666;
+}
 	
 .intro {
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;
 	font-size: 1.75em;
 	color: #fff;
-	padding: 5px 20px;
+	padding: 5px 2.083333333%;
 	background: rgba(113, 192, 20, .83);
 	margin: 10px auto;
 	text-align: center;
 	width: 80%;
 	-moz-border-radius: 3px;
-
 	}
+
+.intro p {
+	color: #fff;
+	}	
 
 .description {
 	text-align: center;
 	color: #666;
+	padding: 0 0 10px 0;
 	}
 	
 img {
 	float: right;
 	border: 1px solid #e4e4e4;
-	padding: 10px;
-	margin: 20px;
+	padding: 1.0416666666667%;
+	margin: 2.083333333%;
 	}
 	
 .wrapper ul{
-	padding: 0px;
-	margin: 10px 0 20px 20px;
+	padding: 0;
+	margin: 0 0 0 20px;
 	-moz-column-count: 2;
 	text-align: left;
 	color: #666;
@@ -133,8 +143,8 @@ img {
 	}
 
 .wrapper ol {
-	padding: 0px;
-	margin: 10px 0 20px 20px;
+	padding: 0;
+	margin: 0 0 0 20px;
 	text-align: left;
 	color: #666;
 	} 
@@ -152,3 +162,4 @@ footer p {
 	color: #b7b7b7;
 	text-align: center;
 	}
+	
