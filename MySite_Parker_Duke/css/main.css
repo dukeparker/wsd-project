@@ -62,12 +62,13 @@ nav a:visited {
 	color: #71c014;
 	}
 	
-.wrapper {
+#wrapper {
 	background: #fff;
 	margin: 0 auto;
 	padding: 2.083333333%;
 	width: 80%;
 	-moz-border-radius: 3px;
+	max-width: 960px;
 	}
 
 h1 {
@@ -124,6 +125,7 @@ p {
 	text-align: center;
 	width: 80%;
 	-moz-border-radius: 3px;
+	max-width: 960px;
 	}
 
 .intro p {
@@ -141,7 +143,7 @@ p {
 	
 .wrapper ul {
 	padding: 0;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 2.083333333%;
 	-moz-column-count: 3;
 	text-align: left;
 	color: #666;
@@ -154,7 +156,7 @@ p {
 
 .wrapper ol {
 	padding: 0;
-	margin: 0 0 0 20px;
+	margin: 0 0 0 2.083333333%;
 	text-align: left;
 	color: #666;
 	} 
@@ -191,7 +193,7 @@ footer p {
 }
 
 @media only screen and (max-width:479px) {
-	h1 {font-size: 4em; padding: 100px 0 0 0;}
+	h1 {font-size: 4em; padding: 100px 0 0 0; line-height:.9em;}
 	h3 {font-size: 2.5em; text-align:center;}
 	.container img {width: 97%; float: none;}	
 	.wrapper ul {-moz-column-count: 1;} 
