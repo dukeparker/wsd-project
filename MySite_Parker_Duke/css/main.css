@@ -3,6 +3,7 @@ body {
 	margin: 0 auto;
 	background: #fff url("../images/fabric_plaid.jpg") fixed;
 	font: 100%/1.5 "Helvetica Neue", Arial, Trebuchet, Sans-serif;
+	font-weight: 200;
 	}
 	
 a {
@@ -13,6 +14,18 @@ hr {
 	border: none;
 	border-top: 2px dotted #d8d8d8;
 	height: 1px;
+	}
+
+img {
+	float: right;
+	border: 1px solid #e4e4e4;
+	padding: 1.0416666666667%;
+	margin: 0 auto;
+	max-width: 100%;
+	}
+
+.container img {
+	width: 44.7916666666667%;
 	}
 	
 nav ul {
@@ -73,9 +86,9 @@ h1 {
 h2 {
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;
-	font-size: 3em;
+	font-size: 3.5em;
 	padding: 10px 0 0 0;
-	color: #000;
+	color: #71c014;
 	text-align: center;
 	margin: 0 auto;
 	}
@@ -83,13 +96,14 @@ h2 {
 h3 {
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;	
-	font-size: 2em;
+	font-size: 3em;
 	margin: 10px 0;
 	}
 
 h4 {
 	font-size: 1.5em;
-	margin: 10px 0;
+	font-weight: 100;	
+	margin: 10px 0 3px 0;
 	padding 0;
 	color: #666;
 	}
@@ -114,25 +128,21 @@ p {
 
 .intro p {
 	color: #fff;
+	margin: 10px auto;
+
 	}	
 
 .description {
 	text-align: center;
 	color: #666;
 	padding: 0 0 10px 0;
+	font-size: 1.15em;
 	}
 	
-img {
-	float: right;
-	border: 1px solid #e4e4e4;
-	padding: 1.0416666666667%;
-	margin: 2.083333333%;
-	}
-	
-.wrapper ul{
+.wrapper ul {
 	padding: 0;
 	margin: 0 0 0 20px;
-	-moz-column-count: 2;
+	-moz-column-count: 3;
 	text-align: left;
 	color: #666;
 	list-style-type: circle;
@@ -162,4 +172,33 @@ footer p {
 	color: #b7b7b7;
 	text-align: center;
 	}
-	
+
+
+/* media queries 
+==================================================*/
+
+@media screen and (min-width:767px) and (max-width: 960px) {
+	.container img {width: 53%;}
+	.wrapper ul {-moz-column-count: 2;}
+	.intro p {font-size: 1.15em;}
+}
+
+@media only screen and (min-width: 480px) and (max-width:767px) {
+	h1 {font-size: 5em;}
+	.wrapper ul {-moz-column-count: 1;} 
+	.container img {width: 57%;}	
+	.special {-moz-column-count: 1;}
+}
+
+@media only screen and (max-width:479px) {
+	h1 {font-size: 4em; padding: 100px 0 0 0;}
+	h3 {font-size: 2.5em; text-align:center;}
+	.container img {width: 97%; float: none;}	
+	.wrapper ul {-moz-column-count: 1;} 
+	.special {-moz-column-count: 1;}
+	.intro p {font-size: .95em;}
+	nav li {width: 80%; float: none; margin: 3px auto;}
+	nav a { background: none;}
+}
+
+
