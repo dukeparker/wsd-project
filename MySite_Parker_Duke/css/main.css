@@ -14,6 +14,7 @@ hr {
 	border: none;
 	border-top: 2px dotted #d8d8d8;
 	height: 1px;
+	clear:both;
 	}
 
 img {
@@ -75,7 +76,7 @@ h1 {
 	background: url("../images/logo.png") top center no-repeat;
 	font-family: 'Euphoria Script', cursive;
 	font-weight: 100;
-	font-size: 6.5em; /*120px*/
+	font-size: 6.5em;
 	padding: 100px 0 20px 0;
 	color: #666;
 	text-align: center;
@@ -105,14 +106,14 @@ h4 {
 	font-size: 1.5em;
 	font-weight: 100;	
 	margin: 10px 0 3px 0;
-	padding 0;
+	padding: 0;
 	color: #666;
 	}
 
 p {
 	margin: 0 0 10px 0;
 	color: #666;
-}
+	}
 	
 .intro {
 	font-family: 'Euphoria Script', cursive;
@@ -131,7 +132,6 @@ p {
 .intro p {
 	color: #fff;
 	margin: 10px auto;
-
 	}	
 
 .description {
@@ -175,14 +175,90 @@ footer p {
 	text-align: center;
 	}
 
+.guide {
+	float: left;
+	}
+	
+.notify {
+	float: right;
+	max-width: 50%;
+	}
+
+table {
+	border-collapse: collapse;
+	width: auto;
+	table-layout: auto;
+	}
+
+th {
+	text-align: left;
+	padding: 1em;
+	border-bottom: 1px solid #666;
+	text-transform: uppercase;
+	font-weight:100;
+	color: #71c014;
+	background: url("../images/brillant.png") top repeat #fff;
+	border-bottom: 1px solid #c2c2c2 }
+
+td {
+	text-align: left;
+	padding: 1em;
+	color: #666;
+	}	
+	
+.odd
+	{
+	background: url("../images/brillant.png") top repeat #fff;
+	}
+
+aside {
+	float: right;
+	}
+
+.button {
+	background: #71c014;
+	background:-moz-linear-gradient(top, #71c014 50%, #67b10f 50%);
+    border: 2px solid #86d727;
+    color: #fff;
+    font-size: 2em;
+    padding: 2%;
+	font-family: 'Euphoria Script', cursive;
+    -moz-border-radius: 4px;
+    margin: 20px 0;
+}
+
+.formfield {
+	padding: 5%;
+	background: url("../images/brillant.png") top repeat #fff;
+	height:	185px;
+	margin-bottom: 20px;
+	}
+
+.formfield input {
+	width: 100%;
+	float: right;
+	height: 30px;
+	border-top: 1px solid #D8D8D8;
+	border-left: 1px solid #D8D8D8;	
+	margin-bottom: 5px;
+	}
+
+.formfield span {
+	float: left;
+	display: block;
+	color: #666;
+	}
+
 
 /* media queries 
 ==================================================*/
 
-@media screen and (min-width:767px) and (max-width: 960px) {
+@media screen and (min-width:768px) and (max-width: 960px) {
 	.container img {width: 53%;}
 	.wrapper ul {-moz-column-count: 2;}
 	.intro p {font-size: 1.15em;}
+	.notify {float: none;}
+
 }
 
 @media only screen and (min-width: 480px) and (max-width:767px) {
@@ -190,6 +266,7 @@ footer p {
 	.wrapper ul {-moz-column-count: 1;} 
 	.container img {width: 57%;}	
 	.special {-moz-column-count: 1;}
+	.notify {float: none;}
 }
 
 @media only screen and (max-width:479px) {
@@ -200,7 +277,8 @@ footer p {
 	.special {-moz-column-count: 1;}
 	.intro p {font-size: .95em;}
 	nav li {width: 80%; float: none; margin: 3px auto;}
-	nav a { background: none;}
+	nav a {background: none;}
+	td {padding: .2em;}	
+	.notify {float: none; max-width: 100%;}
+	.guide {border-bottom: 2px dotted #D8D8D8; padding-bottom: 20px; margin-bottom: 20px;}
 }
-
-
