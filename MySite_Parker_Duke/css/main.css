@@ -228,25 +228,30 @@ aside {
 }
 
 .formfield {
-	padding: 5%;
+	padding: 3% 5%;
 	background: url("../images/brillant.png") top repeat #fff;
-	height:	185px;
+	height:	220px;
 	margin-bottom: 20px;
 	}
 
 .formfield input {
 	width: 100%;
-	float: right;
 	height: 30px;
-	border-top: 1px solid #D8D8D8;
-	border-left: 1px solid #D8D8D8;	
+	border: 1px solid #D8D8D8;
 	margin-bottom: 5px;
+	font-family: georgia;
+	color: #666;
+	font-size: 1em;
 	}
 
-.formfield span {
-	float: left;
-	display: block;
+.formfield label {
 	color: #666;
+	}
+
+.formfield select {
+	color: #666;
+	margin: 2.083333333%;
+	font-size: .8em;
 	}
 
 
@@ -257,8 +262,8 @@ aside {
 	.container img {width: 53%;}
 	.wrapper ul {-moz-column-count: 2;}
 	.intro p {font-size: 1.15em;}
-	.notify {float: none;}
-
+	.notify {float: none; max-width: 100%;}
+	.guide {border-bottom: 2px dotted #D8D8D8; padding-bottom: 20px; margin-bottom: 20px; float:none;}
 }
 
 @media only screen and (min-width: 480px) and (max-width:767px) {
@@ -266,7 +271,8 @@ aside {
 	.wrapper ul {-moz-column-count: 1;} 
 	.container img {width: 57%;}	
 	.special {-moz-column-count: 1;}
-	.notify {float: none;}
+	.notify {float: none; max-width: 100%;}
+	.guide {border-bottom: 2px dotted #D8D8D8; padding-bottom: 20px; margin-bottom: 20px; float:none;}
 }
 
 @media only screen and (max-width:479px) {

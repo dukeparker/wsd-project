@@ -245,11 +245,15 @@
 			<div class="notify">
 				<h3>Get Notified</h3>
 				<p>Get hot baked content straight to your inbox right after it's posted. Just sign up below!</p>
-				<form>
+				<form method="get" name="notify">
 					<div class="formfield">
-						<span>First name:</span> <input type="text" name="firstname" />
-						<span>Last name:</span> <input type="text" name="lastname" />
-						<span>Email:</span> <input type="text" name="lastname" />
+						<label>First name:</label> <input type="text" name="firstname" /><br />
+						<label>Last name:</label> <input type="text" name="lastname" /><br />
+						<label>Email:</label> <input type="text" name="lastname" /><br />
+						<label>Sex:</label><select name="sex">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+     				    </select>
 					</div>
 					<input type="checkbox" name="vehicle" value="Bike" /> I have read the <a href="#">privacy policy</a>.<br />
 					<input type="submit" value="Sign up!" class="button" />
