@@ -275,32 +275,112 @@ aside {
 ==================================================*/
 
 @media screen and (min-width:768px) and (max-width: 960px) {
-	.container img {width: 53%;}
-	.wrapper ul {-moz-column-count: 2;}
-	.intro p {font-size: 1.15em;}
-	.notify {float: none; max-width: 100%;}
-	.guide {border-bottom: 2px dotted #D8D8D8; padding-bottom: 20px; margin-bottom: 20px; float:none;}
+	.container img {
+		width: 53%;
+		}
+		
+	.wrapper ul {
+		-moz-column-count: 2;
+		}
+		
+	.intro p {
+		font-size: 1.15em;
+		}
+		
+	.notify {
+		float: none; 
+		max-width: 100%;
+		}
+		
+	.guide {
+		border-bottom: 2px dotted #D8D8D8; 
+		padding-bottom: 20px; 
+		margin-bottom: 20px; 
+		float:none;
+		}
 }
 
 @media only screen and (min-width: 480px) and (max-width:767px) {
-	h1 {font-size: 5em;}
-	.wrapper ul {-moz-column-count: 1;} 
-	.container img {width: 57%;}	
-	.special {-moz-column-count: 1;}
-	.notify {float: none; max-width: 100%;}
-	.guide {border-bottom: 2px dotted #D8D8D8; padding-bottom: 20px; margin-bottom: 20px; float:none;}
+	h1 {
+		font-size: 5em;
+		}
+		
+	.wrapper ul {
+		-moz-column-count: 1;
+		} 
+		
+	.container img {
+		width: 57%;
+		}	
+		
+	.special {
+		-moz-column-count: 1;
+	}
+	
+	.notify {
+		float: none; 
+		max-width: 100%;
+		}
+		
+	.guide {
+		border-bottom: 2px dotted #D8D8D8; 
+		padding-bottom: 20px; 
+		margin-bottom: 20px; 
+		float:none;
+		}
 }
 
 @media only screen and (max-width:479px) {
-	h1 {font-size: 4em; padding: 100px 0 0 0; line-height:.9em;}
-	h3 {font-size: 2.5em; text-align:center;}
-	.container img {width: 97%; float: none;}	
-	.wrapper ul {-moz-column-count: 1;} 
-	.special {-moz-column-count: 1;}
-	.intro p {font-size: .95em;}
-	nav li {width: 80%; float: none; margin: 3px auto;}
-	nav a {background: none;}
-	td {padding: .2em;}	
-	.notify {float: none; max-width: 100%;}
-	.guide {border-bottom: 2px dotted #D8D8D8; padding-bottom: 20px; margin-bottom: 20px;}
+	h1 {
+		font-size: 4em; 
+		padding: 100px 0 0 0; 
+		line-height:.9em;
+		}
+		
+	h3 {
+		font-size: 2.5em; 
+		text-align:center;
+		}
+	
+	.container img {
+		width: 97%; 
+		float: none;
+		}	
+		
+	.wrapper ul {
+		-moz-column-count: 1;
+		} 
+		
+	.special {
+		-moz-column-count: 1;
+		}
+		
+	.intro p {
+		font-size: .95em;
+		}
+		
+	nav li {
+		width: 80%; 
+		float: none; 
+		margin: 3px auto;
+		}
+		
+	nav a {
+		background: none;
+		}
+		
+	td {
+		padding: .2em;
+		}	
+		
+	.notify {
+		float: none; 
+		max-width: 100%;
+		}
+		
+	.guide {
+		border-bottom: 2px dotted #D8D8D8; 
+		padding-bottom: 20px; 
+		margin-bottom: 20px;
+		}
 }
